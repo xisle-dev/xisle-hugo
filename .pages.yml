@@ -3,7 +3,8 @@ content:
   - name: Pins
     label: Pins
     type: collection
-    path: 'content'
+    path: 'content/pins'
+    filename: "{{slug}}.md"
     view:
       fields: [ title, published, date ]
     fields:
@@ -14,6 +15,10 @@ content:
       - name: date
         label: Date
         type: date
+      - name: slug
+        label: Slug
+        type: string
+        required: true
       - name: title
         label: Title
         type: string
