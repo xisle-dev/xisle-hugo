@@ -1,3 +1,7 @@
 /*
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: origin, content-type, accept
+
+/pin/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: origin, content-type, accept
