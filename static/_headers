@@ -1,9 +1,2 @@
-/*
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: origin, content-type, accept
-  Access-Control-Allow-Methods:OPTIONS, GET, HEAD, POST
-
 /pin/*
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: origin, content-type, accept
-  Access-Control-Allow-Methods:OPTIONS, GET, HEAD, POST
