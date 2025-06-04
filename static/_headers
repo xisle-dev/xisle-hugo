@@ -1,2 +1,11 @@
-/pin/*
-  Access-Control-Allow-Origin: *
+/pin
+  Access-Control-Allow-Origin: https://hono-xisle.gtissington.workers.dev
+  Access-Control-Allow-Methods: POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, HX-Request, HX-Trigger, HX-Target
+  Access-Control-Allow-Credentials: true
+
+/pin
+  Access-Control-Allow-Origin: https://hono-xisle.gtissington.workers.dev
+  Access-Control-Allow-Methods: POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, HX-Request, HX-Trigger, HX-Target
+  Access-Control-Allow-Credentials: true  
