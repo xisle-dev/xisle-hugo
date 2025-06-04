@@ -5,9 +5,9 @@
       </div>
     {{ end }}
     <h1 class="f3 near-black">
-      <a href="{{ .RelPermalink }}" class="link black dim">
+      <button hx-get="{{ RelPermalink }}" hx-target="#info" hx-push="true" class="link black dim">
         {{ .Title }}
-      </a>
+      </button>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary  }}
